@@ -1,9 +1,15 @@
+    *{
+        color: white;
+        font-size: 15;
+        font-weight: bold;
+    }
     body {
         background-image: url("../../assets/bodybackground.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
         text-align: center;
+        color: white;
  
         margin: 0;
         padding: 0;
@@ -19,7 +25,10 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-    
+    .logo
+    {
+        font-size: 18px;
+    }
     .nav {
         background-color:transparent;
         height: max-content;
@@ -46,6 +55,7 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    
     
     .navMenu {
         width: 85%;
@@ -75,8 +85,10 @@
     
     .navMenu>.navMenuLeft>ul>li:hover,
     .navMenu>.navMenuRight>ul>li:hover {
-        background-color: grey;
+       
         border-radius: 100%;
+        color: #fff;
+      
     }
     
     .navMenu>.navMenuLeft>ul>li:active,
@@ -125,6 +137,7 @@
         width: 100%;
         margin: auto;
         margin-top: 5px;
+        
     }
     
     .mTop {
