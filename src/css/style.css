@@ -21,11 +21,12 @@
     }
     
     .nav {
-        background-color:black;
+        background-color:transparent;
         height: max-content;
         width: 100%;
         display: flex;
         align-items: center;
+        
     }
     
     .nav>.container {
@@ -117,7 +118,7 @@
     .btn2>a {
         font-weight: bold;
         font-size: 15px;
-        color: rgba(255, 255, 255, 1);
+        color: white;
     }
     
     .credentialContainer {
@@ -143,7 +144,7 @@
         color: rgb(233, 218, 218);
         font-style: normal;
         font-weight: normal;
-        background: black;
+        background: transparent;
     }
     
     .credentialContent>form {
